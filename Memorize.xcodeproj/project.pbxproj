@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5419CDAB27D8032100FA8340 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5419CDAA27D8032100FA8340 /* CardView.swift */; };
+		5419CDAC27D8032100FA8340 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5419CDAA27D8032100FA8340 /* CardView.swift */; };
 		54ACA3AB27D7FD8F005B7D35 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ACA39827D7FD8E005B7D35 /* MemorizeApp.swift */; };
 		54ACA3AC27D7FD8F005B7D35 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ACA39827D7FD8E005B7D35 /* MemorizeApp.swift */; };
 		54ACA3AD27D7FD8F005B7D35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ACA39927D7FD8E005B7D35 /* ContentView.swift */; };
@@ -16,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5419CDAA27D8032100FA8340 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		54ACA39827D7FD8E005B7D35 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
 		54ACA39927D7FD8E005B7D35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		54ACA39A27D7FD8F005B7D35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +63,7 @@
 				54ACA39827D7FD8E005B7D35 /* MemorizeApp.swift */,
 				54ACA39927D7FD8E005B7D35 /* ContentView.swift */,
 				54ACA39A27D7FD8F005B7D35 /* Assets.xcassets */,
+				5419CDAA27D8032100FA8340 /* CardView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -188,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54ACA3AD27D7FD8F005B7D35 /* ContentView.swift in Sources */,
+				5419CDAB27D8032100FA8340 /* CardView.swift in Sources */,
 				54ACA3AB27D7FD8F005B7D35 /* MemorizeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54ACA3AE27D7FD8F005B7D35 /* ContentView.swift in Sources */,
+				5419CDAC27D8032100FA8340 /* CardView.swift in Sources */,
 				54ACA3AC27D7FD8F005B7D35 /* MemorizeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    var emojis = ["H", "E", "B", "C"]
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        HStack{
+            ForEach(emojis, id: \.self) {
+                CardView(content: "\($0)")
+            }
+        }
+        .padding(.horizontal)
+        .foregroundColor(.purple)
     }
 }
 
